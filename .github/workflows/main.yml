@@ -22,10 +22,12 @@ jobs:
           distribution: temurin
           java-version: '21'
 
-      - name: Prepare Gradle
+      - name: Make Gradle executable
+        working-directory: Journal-SMP-GitHub-Build-Ready
         run: chmod +x gradlew
 
       - name: Compile Minecraft mod
+        working-directory: Journal-SMP-GitHub-Build-Ready
         run: ./gradlew build --no-daemon
 
       - name: Upload compiled JAR
@@ -33,6 +35,7 @@ jobs:
         with:
           name: Journal-SMP-Fabric-Mod
           path: |
-            build/libs/*.jar
-            !build/libs/*-sources.jar
+            Journal-SMP-GitHub-Build-Ready/build/libs/journalsmp-*.jar
+            !Journal-SMP-GitHub-Build-Ready/build/libs/*-sources.jar
           if-no-files-found: error
+
