@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "FGF",
+    "BSP",
+    " G "
+  ],
+  "key": {
+    "F": "minecraft:feather",
+    "G": "minecraft:gold_ingot",
+    "B": "minecraft:book",
+    "S": "minecraft:nether_star",
+    "P": "minecraft:ender_pearl"
+  },
+  "result": {
+    "id": "journalsmp:nillis_space_book",
+    "count": 1
+  }
+}

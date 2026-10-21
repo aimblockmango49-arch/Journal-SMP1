@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "GDN",
+    "EOE",
+    "OD "
+  ],
+  "key": {
+    "G": "minecraft:dried_ghast",
+    "D": "minecraft:diamond",
+    "N": "minecraft:nether_star",
+    "E": "minecraft:ender_eye",
+    "O": "minecraft:obsidian"
+  },
+  "result": {
+    "id": "journalsmp:vaniltes_horror_game",
+    "count": 1
+  }
+}

@@ -1,0 +1,10 @@
+JOURNAL SMP FABRIC MOD — GITHUB BUILD
+
+This archive is prepared for upload to the ROOT of a new GitHub repository.
+Upload the CONTENTS of this folder (not the folder itself).
+
+Build: open the repository Actions tab and run “Build Journal SMP Mod”, or push/commit to main/master.
+When the workflow succeeds, download the journalsmp-fabric-1.21.11 artifact from the run summary and extract the JAR.
+
+Target: Minecraft Java 1.21.11, Fabric Loader 0.18.1+, Java 21, Fabric API 0.141.1+1.21.11.
+A successful compilation does not replace testing the mod on a backup server.
